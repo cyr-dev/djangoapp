@@ -1,6 +1,9 @@
 # Base python docker image
 FROM python:3.9.5-buster
 
+
+ENV PYTHONBUFFERED 1
+
 # import code 
 ADD . /code
 
